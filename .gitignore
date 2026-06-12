@@ -1,0 +1,39 @@
+# Gradle
+.gradle/
+build/
+app/build/
+app/.cxx/
+.kotlin/
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Model binary files (not distributed with repo)
+*.onnx
+*.onnx.data
+
+# MobileCLIP2-S0 model directory
+models/mobileclip2-s0/*.onnx
+models/mobileclip2-s0/vocab.json
+models/mobileclip2-s0/merges.txt
+models/mobileclip2-s0/model.json
+models/mobileclip2-s0/*.gz
+models/mobileclip2-s0/*.txt.gz
+
+# App assets (models delivered via adb push)
+app/src/main/assets/
+
+# Build outputs
+*.apk
+*.aab
+
+# Logs and runtime data
+*.log
+*.csv
+*.db
+
+# Screenshots and window dumps
+screen*.png
+window*.xml

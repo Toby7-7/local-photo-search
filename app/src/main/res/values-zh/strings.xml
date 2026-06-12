@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">本地搜图</string>
+
+    <!-- Search bar -->
+    <string name="search_placeholder">搜索照片</string>
+
+    <!-- Stat chips -->
+    <string name="stat_indexed">已索引 %s</string>
+    <string name="stat_pending">待索引 %s</string>
+    <string name="stat_failed">失败 %s</string>
+
+    <!-- Button text -->
+    <string name="grant_permission">授权</string>
+    <string name="start_index">开始索引</string>
+    <string name="continue_index">继续索引</string>
+    <string name="pause">暂停</string>
+    <string name="retry_failed">重试失败</string>
+    <string name="settings">设置</string>
+
+    <!-- Indexing status button (running state suffix) -->
+    <string name="tap_to_pause">，点按暂停</string>
+
+    <!-- Status messages from controller -->
+    <string name="status_scanning">正在扫描</string>
+    <string name="status_preparing">正在准备</string>
+    <string name="status_indexing">正在索引</string>
+    <string name="status_retrying">正在重试</string>
+    <string name="status_processing">处理中</string>
+
+    <!-- Speed display -->
+    <string name="speed_label">速度 %1$s</string>
+    <string name="per_image_time">%1$s 单张总耗时</string>
+    <string name="decode">解码 %s</string>
+    <string name="tensor">转换 %s</string>
+    <string name="inference">推理 %s</string>
+    <string name="write">写入 %s</string>
+    <string name="other">其他 %s</string>
+    <string name="total_equals_duration">合计=总耗时</string>
+
+    <!-- Search timing -->
+    <string name="search">搜索 %s</string>
+    <string name="model">模型 %s</string>
+    <string name="text">文本 %s</string>
+    <string name="retrieval">检索 %s</string>
+    <string name="build">构建 %s</string>
+    <string name="compare">比较 %d 张</string>
+    <string name="results_count">%d 个结果</string>
+
+    <!-- Search messages -->
+    <string name="no_indexed_photos">还没有已索引照片</string>
+    <string name="no_model_configured">没有配置模型</string>
+    <string name="searching">搜索中</string>
+    <string name="no_results">没有结果</string>
+    <string name="search_results_count">%d 个结果</string>
+
+    <!-- Settings dialog -->
+    <string name="title_settings">设置</string>
+    <string name="confidence_threshold">置信度阈值 %s</string>
+    <string name="threshold_description">搜索时只显示分数大于等于阈值的结果。0.00 表示不过滤。</string>
+    <string name="preload_search_model">预加载搜索模型</string>
+    <string name="preload_index_model">预加载索引模型</string>
+    <string name="rebuild_index">重建索引</string>
+    <string name="done">完成</string>
+    <string name="reset">重置</string>
+
+    <!-- Rebuild confirm dialog -->
+    <string name="title_rebuild_index">重建索引</string>
+    <string name="rebuild_confirm_text">只会删除本应用的索引和向量文件，不会删除手机里的照片。重建后需要重新索引。</string>
+    <string name="confirm_rebuild">确认重建</string>
+    <string name="cancel">取消</string>
+
+    <!-- Failure dialog -->
+    <string name="failed_photos_title">失败照片 %d</string>
+    <string name="reading_failures">正在读取失败原因，或当前没有失败记录。</string>
+    <string name="showing_failures_recent">显示最近 %d 条失败记录</string>
+    <string name="retry_all_failed">重试全部失败</string>
+    <string name="close">关闭</string>
+
+    <!-- Failure row -->
+    <string name="media_fallback">媒体 %d</string>
+    <string name="failure_id_retry">ID %1$d · 重试 %2$d 次</string>
+    <string name="no_error_recorded">没有记录到具体原因</string>
+    <string name="open_photo">打开照片</string>
+    <string name="retry_this">重试这张</string>
+
+    <!-- Toast messages -->
+    <string name="no_gallery_app">没有找到可以打开这张照片的相册应用</string>
+    <string name="no_permission_to_open">没有权限打开这张照片</string>
+
+    <!-- Controller error messages (displayed to user) -->
+    <string name="error_model_not_loaded">模型未加载，请检查模型配置</string>
+    <string name="error_photo_permission_needed">需要照片权限才能开始索引</string>
+    <string name="error_model_files_missing">模型文件缺失: %s</string>
+    <string name="error_index_corrupt_rebuilding">索引数据异常，正在重建</string>
+</resources>

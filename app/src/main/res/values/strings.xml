@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Local Photo Search</string>
+
+    <!-- Search bar -->
+    <string name="search_placeholder">Search photos</string>
+
+    <!-- Stat chips -->
+    <string name="stat_indexed">Indexed %s</string>
+    <string name="stat_pending">Pending %s</string>
+    <string name="stat_failed">Failed %s</string>
+
+    <!-- Button text -->
+    <string name="grant_permission">Grant</string>
+    <string name="start_index">Start Indexing</string>
+    <string name="continue_index">Continue</string>
+    <string name="pause">Pause</string>
+    <string name="retry_failed">Retry Failed</string>
+    <string name="settings">Settings</string>
+
+    <!-- Indexing status button (running state suffix) -->
+    <string name="tap_to_pause">, tap to pause</string>
+
+    <!-- Status messages from controller -->
+    <string name="status_scanning">Scanning</string>
+    <string name="status_preparing">Preparing</string>
+    <string name="status_indexing">Indexing</string>
+    <string name="status_retrying">Retrying</string>
+    <string name="status_processing">Processing</string>
+
+    <!-- Speed display -->
+    <string name="speed_label">Speed %1$s</string>
+    <string name="per_image_time">%1$s per image</string>
+    <string name="decode">Decode %s</string>
+    <string name="tensor">Tensor %s</string>
+    <string name="inference">Inference %s</string>
+    <string name="write">Write %s</string>
+    <string name="other">Other %s</string>
+    <string name="total_equals_duration">Total duration</string>
+
+    <!-- Search timing -->
+    <string name="search">Search %s</string>
+    <string name="model">Model %s</string>
+    <string name="text">Text %s</string>
+    <string name="retrieval">Retrieval %s</string>
+    <string name="build">Build %s</string>
+    <string name="compare">Compare %d photos</string>
+    <string name="results_count">%d results</string>
+
+    <!-- Search messages -->
+    <string name="no_indexed_photos">No indexed photos yet</string>
+    <string name="no_model_configured">No model configured</string>
+    <string name="searching">Searching</string>
+    <string name="no_results">No results</string>
+    <string name="search_results_count">%d results</string>
+
+    <!-- Settings dialog -->
+    <string name="title_settings">Settings</string>
+    <string name="confidence_threshold">Confidence threshold %s</string>
+    <string name="threshold_description">Only show results with score >= threshold. 0.00 means no filtering.</string>
+    <string name="preload_search_model">Preload search model</string>
+    <string name="preload_index_model">Preload index model</string>
+    <string name="rebuild_index">Rebuild Index</string>
+    <string name="done">Done</string>
+    <string name="reset">Reset</string>
+
+    <!-- Rebuild confirm dialog -->
+    <string name="title_rebuild_index">Rebuild Index</string>
+    <string name="rebuild_confirm_text">This will only delete the app\'s index and vector files, not your photos. A full re-index will be required after rebuilding.</string>
+    <string name="confirm_rebuild">Confirm Rebuild</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Failure dialog -->
+    <string name="failed_photos_title">Failed Photos %d</string>
+    <string name="reading_failures">Reading failure reasons, or no failures recorded.</string>
+    <string name="showing_failures_recent">Showing recent %d failures</string>
+    <string name="retry_all_failed">Retry All Failed</string>
+    <string name="close">Close</string>
+
+    <!-- Failure row -->
+    <string name="media_fallback">Media %d</string>
+    <string name="failure_id_retry">ID %1$d · Retried %2$d times</string>
+    <string name="no_error_recorded">No error recorded</string>
+    <string name="open_photo">Open Photo</string>
+    <string name="retry_this">Retry This</string>
+
+    <!-- Toast messages -->
+    <string name="no_gallery_app">Could not find a gallery app to open this photo</string>
+    <string name="no_permission_to_open">No permission to open this photo</string>
+
+    <!-- Controller error messages (displayed to user) -->
+    <string name="error_model_not_loaded">Model not loaded, please check model configuration</string>
+    <string name="error_photo_permission_needed">Photo permission is required to start indexing</string>
+    <string name="error_model_files_missing">Model files missing: %s</string>
+    <string name="error_index_corrupt_rebuilding">Index data is corrupt, rebuilding</string>
+</resources>

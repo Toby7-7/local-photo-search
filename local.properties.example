@@ -1,0 +1,3 @@
+# Android SDK location
+# Change this to point to your Android SDK directory
+sdk.dir=PATH_TO_YOUR_SDK_HERE
